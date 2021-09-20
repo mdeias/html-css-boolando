@@ -1,0 +1,74 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.row{
+  min-height: 400px;
+  margin-bottom: 20px;
+}
+
+img{
+  width: 100%;
+}
+
+.cella{
+  display: inline-block;
+  position: relative;
+  width: 30%;
+  margin: 1%;
+  background-size: contain;
+}
+
+.sconto{
+  padding: 5px;
+  position: absolute;
+  font-size: 12px;
+  background-color: red;
+  color: white;
+  top: 325px;
+}
+
+.sostenibilita{
+  padding: 5px;
+  font-size: 12px;
+  position: absolute;
+  top: 325px;
+  color: white;
+  background-color: green;
+  left: 40px;
+}
+
+.cuore{
+  position: absolute;
+  background-color: #fff;
+  padding: 10px;
+  right: 0px;
+  top: 30px;
+  
+}
+
+.absolute {
+  left:0px;
+}
+
+.testo{
+  font-size: 13px;
+}
+
+.prezzo{
+  color: red;
+  font-weight: 600;
+}
+
+.cancellato{
+  text-decoration: line-through;
+  color: black;
+  font-weight: 400;
+}
