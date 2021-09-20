@@ -1,3 +1,5 @@
+/* stili generali */
+
 *{
   box-sizing: border-box;
   margin: 0px;
@@ -9,6 +11,8 @@
   margin: auto;
 }
 
+/* stili sezione orizzontale */
+
 .row{
   min-height: 400px;
   margin-bottom: 20px;
@@ -18,6 +22,8 @@ img{
   width: 100%;
 }
 
+/* stili celle  */
+
 .cella{
   display: inline-block;
   position: relative;
@@ -26,20 +32,30 @@ img{
   background-size: contain;
 }
 
+/* stili immagini nascoste */
+
+.cella .nascosta{
+  visibility: hidden; 
+  position: absolute;
+  left: 0px;
+}
+
+/* stili immagini celle  */
+
 .sconto{
   padding: 5px;
   position: absolute;
   font-size: 12px;
   background-color: red;
   color: white;
-  top: 325px;
+  top: 485px;
 }
 
 .sostenibilita{
   padding: 5px;
   font-size: 12px;
   position: absolute;
-  top: 325px;
+  top: 485px;
   color: white;
   background-color: green;
   left: 40px;
@@ -53,6 +69,8 @@ img{
   top: 30px;
   
 }
+
+/* gestione absolute ultima cella e testo  */
 
 .absolute {
   left:0px;
@@ -71,4 +89,14 @@ img{
   text-decoration: line-through;
   color: black;
   font-weight: 400;
+}
+
+/* pointer e hover  */
+
+.cella img{
+  cursor: pointer;
+}
+
+.cella:hover .nascosta{
+  visibility: visible;
 }
